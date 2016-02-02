@@ -8,7 +8,7 @@ module.exports = {
 	public: public,
 
 	stylus: {
-		src: app + '/stylus/**/*.styl',
+		src: app + '/stylus/*.styl',
 		dest: public + '/stylesheets'
 	},
 

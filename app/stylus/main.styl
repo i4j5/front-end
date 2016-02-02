@@ -1,0 +1,16 @@
+@require "mixins/grid.styl"
+
+grid-columns = 16
+grid-gutter-width = 20px
+
+.row
+  row()
+  col("s")
+  @media (min-width: 768px)
+    col('m')
+  @media (min-width: 1200px)
+    col('l')
+
+.container
+  width 1180px
+  margin 0 auto
